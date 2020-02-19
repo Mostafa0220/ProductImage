@@ -1,0 +1,268 @@
+header {
+  height: 400px;
+  background: url(../../assets/img/photography_background.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.navbar-nav {
+  margin-top: 14px;
+}
+
+.navbar-nav .nav li {
+  height: 50px;
+}
+
+.navbar-nav > li > a {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  line-height: 32px;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: #333;
+  font-weight: bold;
+  background-color: rgba(255,255,255,0.4);
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+  color: #fff;
+  background-color: rgba(0,0,0,0.6);
+  font-weight: bold;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+  color: #fff;
+  background-color: rgba(0,0,0,0.6);
+  font-weight: bold;
+}
+
+.navbar-toggle {
+  background-color: #fff !important;
+  box-shadow: 1px 1px 1px rgba(0,0,0,0.4);
+  margin-top: 20px;
+}
+
+nav.navbar.navbar-default {
+  background: none;
+  box-shadow: none;
+}
+
+.navbar-brand {
+  height: 75px;
+  font-size: 18px;
+  color: #fff !important;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.4);
+}
+
+.navbar-brand span.text-title {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.yellow-block{
+  position: relative;
+    top: 50px;
+  margin-left: 10%;
+    margin-right: 10%;
+    height: 500px;
+    width: 80%;
+    background-color: #fff200;
+}
+.about-me{
+  height: 600px;
+  position: relative;
+  
+  float: left;
+  top: -100px;
+  left: 50px;
+  background-image: url(../img/about-me.png);
+  background-repeat: no-repeat;
+    background-position: left bottom;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+    
+}
+
+footer {
+  padding: 220px;
+  text-align: center;
+  background-color: #2e3192;
+  
+  height: 515px;
+  background-image: url(../img/footer.png);
+  background-repeat: no-repeat;
+    background-position: center center;
+    
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+}
+.about2{
+  margin-top: 0px;
+}
+.about{
+  margin-top: 0px;
+}
+.footer-text {
+  color: #fff200;
+  font-size: 46px;
+  text-align: center;
+}
+
+div.container.post {
+  margin-bottom: 50px;
+}
+li {
+  list-style-image: url(../img/bullet.png);
+  }
+  .navbar-nav li.active {
+    border-bottom: 3px solid #2e3192;
+  }
+  .project-g{
+    border-top: 3px solid #ececec;
+    border-right: 3px solid #ececec;
+  }
+  .project-b{
+    border-bottom: 3px solid #ececec;
+  }
+  .project-l{
+    border-left: 3px solid #ececec;
+  }
+  .projects div .fa{
+  font-size:80px!important;
+  color:#2e3192;
+}
+
+h3.name{
+  font-size: 32px;
+}
+.projects div:hover {
+  background-color: #2e3192;
+  color: #fff;
+  cursor: pointer; 
+}
+.projects div:hover .fa {
+  font-size:80px;
+  color:#fff200;
+}
+
+.blue-bar{
+  color: #fff;
+  margin: 10px;
+}
+}
+
+@media (max-width:767px) {
+  .navbar-brand span.text-title {
+    display: none;
+  }
+  .post-title h1 {
+    margin-top: 20px;
+    font-size: 32px;
+    margin-bottom: 10px;
+  }
+  .about2{
+    margin-top: -197px;
+  }
+  .yellow-block {
+    
+    height: 600px;
+  }
+  .footer-text {
+    
+    font-size: 16px;
+    
+  }
+  .about-me{
+  
+    background-image: none;
+  }
+}
+
+.navbar-brand .glyphicon {
+  display: inline-block;
+  font-size: 36px;
+  color: #fff;
+  vertical-align: middle;
+  margin-right: 20px;
+  position: relative;
+  top: -2px;
+}
+
+@media (min-width:768px) {
+  .navbar-nav li {
+    margin-left: 10px;
+  }
+  footer{
+    height: 554px;
+  }
+  .footer-text {
+    font-size: 30px;
+}
+.about2{
+  margin-top: -278px;
+
+}
+.about1{
+  margin-top: 90px;
+
+
+}
+
+}
+
+.categories {
+  text-align: center !important;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #e4e4e4;
+  padding: 10px;
+}
+
+.categories li {
+  display: inline-block !important;
+  float: none;
+}
+
+.post-body {
+  margin-top: 30px;
+  font-size: 16px;
+}
+.btn-primary  {
+   margin-top: 50px;
+   margin-left: 50px;
+  background-color: #2e3192!important;
+}
+.jumbdotron{margin-top: 90px;
+    margin-left: 7px;
+  color: #fff;
+  }
+  .jumbdotron h3{
+    color: #fff;
+  }
+@media (min-width:992px) {
+  .post-title {
+    text-align: right;
+    padding-right: 30px;
+  }
+}
+
+.post-title .author {
+  text-transform: uppercase;
+}
+
+.post-body figure {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.post-title .author span {
+  margin-left: 5px;
+}
+
+.post-title h1 {
+  font-weight: bold;
+  margin-top: 30px;
+}
+
