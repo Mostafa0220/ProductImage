@@ -9,6 +9,7 @@
                 <span class="icon-bar"></span>
             </button>
             <a class="navbar-brand" href="{{ url('/') }}">Home</a>
+            <a class="navbar-brand" href="{{ url('/public/task/index.html') }}" target="_blank">Bootstrap Task</a>
             <a class="navbar-brand" href="{{ url('/product') }}">List Products</a>
         </div>
 
