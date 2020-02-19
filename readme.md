@@ -5,7 +5,7 @@ A simple CRUD products with image upload application & User AUTH API
 2. Mysql Database
 3. Laravel Framework 5.4.36
 # Getting started
-1. `git clone https://github.com/Mostafa0220/ProductImage.git && cd todos`
+1. `git clone https://github.com/Mostafa0220/ProductImage.git && cd ProductImage`
 2. `composer install`
 3. `cp .env.example .env`
 4. `php artisan key:generate`
